@@ -1,0 +1,13 @@
+	import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SeleniumExample {
+public static void main(String[] args) {
+II Set the path to the chromedriver executable System.setProperty("webdriver.chrome.driver",  "lpath/tolchromedriver");
+
+II Create a new instance of the Chrome driver WebDriver driver= new ChromeDriverO;
+II Navigate to GitHub driver.get("https:llgithub.com");
+II Close the browser driver.quitQ;
+}
+}
